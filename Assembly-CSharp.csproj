@@ -74,7 +74,7 @@
     <Compile Include="Assets\LibNosie\Generator\Const.cs" />
     <Compile Include="Assets\LibNosie\Operator\Power.cs" />
     <Compile Include="Assets\LibNosie\Operator\Curve.cs" />
-    <Compile Include="Assets\Noise.cs" />
+    <Compile Include="Assets\Scripts\Noise.cs" />
     <Compile Include="Assets\LibNosie\Operator\Cache.cs" />
     <Compile Include="Assets\LibNosie\Operator\Rotate.cs" />
     <Compile Include="Assets\LibNosie\Operator\Subtract.cs" />

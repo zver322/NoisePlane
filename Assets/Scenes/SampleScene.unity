@@ -312,7 +312,6 @@ GameObject:
   - component: {fileID: 1189006173}
   - component: {fileID: 1189006172}
   - component: {fileID: 1189006171}
-  - component: {fileID: 1189006170}
   - component: {fileID: 1189006169}
   m_Layer: 0
   m_Name: Plane
@@ -335,25 +334,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapSizeX: 256
   mapSizeY: 256
-  sampleSizeX: 20
-  sampleSizeY: 20
-  sampleOffsetX: 5
-  sampleOffsetY: 5
+  sampleSizeX: 6
+  sampleSizeY: 6
+  sampleOffsetX: 3
+  sampleOffsetY: 4
   planeRenderer: {fileID: 1189006171}
---- !u!64 &1189006170
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1189006168}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &1189006171
 MeshRenderer:
   m_ObjectHideFlags: 0

@@ -386,7 +386,7 @@
 "Assets/LibNosie/Operator/Turbulence.cs"
 "Assets/LibNosie/Properties/AssemblyInfo.cs"
 "Assets/LibNosie/Utils.cs"
-"Assets/Noise.cs"
+"Assets/Scripts/Noise.cs"
 -langversion:9.0
 
 /deterministic
