@@ -18,6 +18,11 @@ public class Noise : MonoBehaviour
     public double sampleOffsetX = 3.0;
     public double sampleOffsetY = 4.0;
 
+    // Parametrs for modification Perlin function
+    public int octaves = 10;
+    public double frequency = 1.4;
+    public double persistance = 0.7;
+
     // This class helps us to render the texture
     public Renderer planeRenderer;
 
@@ -41,6 +46,10 @@ public class Noise : MonoBehaviour
     {
         // Instantiate Perlin noise module
         var myPerlin = new Perlin();
+
+        myPerlin.OctaveCount = octaves;
+        myPerlin.Frequency = frequency;
+        myPerlin.Persistence = persistance;
 
         // Set this module into base class for noise modules
         ModuleBase myModule = myPerlin;
